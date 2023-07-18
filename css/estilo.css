@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #002f6d9f;
+    color: #e2ebf2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    font-family: 'KoHo', sans-serif;
+}
+
+.logo{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-cobra{
+    filter: brightness(0) invert(1);
+    width: 40px;
+}
+
+.cobra-informática{
+    margin-left: 2px;
+}
+
+.cobra-informática h3{
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.cobra-informática h4{
+    font-weight: lighter;
+    font-size: 5px;
+    letter-spacing: 3px;
+}
+
+nav a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: #e2ebf2;
+}
+
+header .header-iconos{
+    display: flex;
+    margin-right: 30px;
+
+}
+
+.icono-whatsapp{
+    margin-left: 20px;
+}
+
+.icono-llamada{
+    margin-left: 20px;
+}
+
+.br-v{
+    color: #e2ebf2;
+    margin-left: 20px;
+}
+
+.arrow-down{
+    text-transform: lowercase;
+}
+
+
+.hero{
+    background-image: url(../fondo.jpg);
+    background-size: 100%;
+    background-position: center left;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 150px;
+}
+
+.hero .hero-titulo{
+    font-family: 'KoHo', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    /* margin-left: 150px; */
+    justify-content: center;
+    width: 50%;
+    display: flex;
+}
+
+/* SECTION DE LOGOS */
+.contenedor-imagenes{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.compromiso{
+    font-family: 'KoHo', sans-serif;
+    color: #e2ebf2;
+}
+
+.h4compromiso{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.imagenes-compromiso{
+    display: flex;
+}
+
+
+.unglobal{
+    filter: brightness(0) invert(1);
+    width: 40px;
+}
+
+
+.contenedor-unglobal{
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-pacto{
+    font-size: 10px;
+    margin-left: 10px;
+
+}
+
+
+
+
+
+.contenedor-onu{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+
+.onu{
+    filter: brightness(0) invert(1);
+    width: 70px;
+
+}
+
+.onu-texto{
+    font-size: 10px;
+
+}
+
+
+
+
+
+.certificada{
+    font-family: 'KoHo', sans-serif;
+    color: #e2ebf2;
+    margin-left: 50px;
+    font-size: 12px;
+
+
+}
+
+.contenedor-blanccoycialdun{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.blancco{
+    filter: brightness(0) invert(1);
+    width: 120px;
+}
+
+.cial-dun{
+    filter: brightness(0) invert(1);
+    width: 200px;
+    margin-left: 20px;
+}
+
+.contenedor-greatplace{
+
+}
+
+.greatplace{
+    position: relative;
+    margin-left: 50px;
+    bottom: 50px;
+    width: 80px;
+}
+ */
+
+
+
+
+
+
+
+header .header-iconos {
+    margin-right: 30px;
+}
+
+.contenedorimagenes {
+    display: flex;
+}
+
+.comprometido {
+    background-color: brown;
+}
+
+.galeria-imagenes {
+    background-color: crimson;
+}
+
+.contenedor-galeria-imagenytexto {
+    display: ;
+}
+
+.responsabilidad {
+    background-color: darkorange;
+}
